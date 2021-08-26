@@ -1,0 +1,93 @@
+#header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  border-bottom: solid 1px #ccc;
+  padding: 0 16px;
+  .left{
+    display: flex;
+    align-items: center;
+    height: 56px;
+    .main-logo{
+      >img{
+        height: 24px;
+        cursor: pointer;
+      }
+    }
+    .logo{
+      height: 56px;
+      padding: 0 14px;
+      >img{
+        height: 56px;
+        cursor: pointer;
+      }
+    }
+  }
+  .mid{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    .search-group{
+      height: 26px;
+      display: flex;
+    }
+    .search-input{
+      width: 100%;
+      height: 32px;
+      display: flex;
+    }
+    .search-logo{
+      height: 32px;
+
+      >img{
+        padding: 0 10px ;
+        background-color: #cccccc;
+        border-radius: 2px;
+        border-top: solid 1px ;
+        border-right: solid 1px ;
+        border-bottom: solid 1px ;
+        height: 30px;
+        cursor: pointer;
+      }
+    }
+    .microphone-logo{
+      height: 40px;
+      margin-left: 8px;
+      >img{
+        height: 32px;
+        cursor: pointer;
+      }
+    }
+  }
+  .right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 56px;
+    .login-group{
+      border: solid 1px blue;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding:0 11px;
+      height: 40px;
+      cursor: pointer;
+      >span{
+        margin-left: 8px;
+        color: blue;
+        font-size: 14px;
+      }
+    }
+    .right-logo{
+     
+      >img{
+        padding: 0 8px;
+        height: 24px;
+        cursor: pointer;
+      }
+    }
+
+  }
+}

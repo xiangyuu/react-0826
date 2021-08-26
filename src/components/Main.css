@@ -1,0 +1,79 @@
+#main {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-gap: 10px;
+  background-color: #FCFCFC;
+  padding-top: 25px;
+}
+
+#main .card {
+  height: 100%;
+  width: 100%;
+}
+
+#main .card .img-div .img-pic > img {
+  height: 170px;
+}
+
+#main .card .img-info {
+  display: flex;
+  height: 94px;
+  margin-top: 10px;
+}
+
+#main .card .img-info .img-head {
+  margin-right: 12px;
+}
+
+#main .card .img-info .img-head > img {
+  height: 36px;
+  width: 36px;
+}
+
+#main .card .img-info .img-text {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  width: 224px;
+}
+
+#main .card .img-info .img-text > span:nth-child(1) {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+#main .card .img-info .img-text > a {
+  color: #666;
+  font-size: 14px;
+}
+
+#main .card .img-info .img-text > span:nth-child(5) {
+  color: #666;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 575px) {
+  #main {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 576px) {
+  #main {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #main {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #main {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
